@@ -22,16 +22,6 @@ fun main() {
     practiceListNullability()
 }
 
-/**
- * You can call methods on primitives
- */
-private fun Double.multiply(divideBy: Double) = this.times(divideBy.div(this))
-
-private fun Double.eatFish(numToEat: Int) = this.minus(numToEat)
-
-private fun Double.numberOfAquariums(divideBy: Int) = this.div(divideBy)
-
-
 // Basic function
 private fun printMessage(message: String) = println(message)
 
