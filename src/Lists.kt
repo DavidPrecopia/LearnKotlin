@@ -28,4 +28,12 @@ fun main() {
     // for-each
     // `it` is the implicit name of a single parameter
     myMutableList.forEach { println(it.length) }
+
+    arrayStuff()
+}
+
+private fun arrayStuff() {
+    // initialize an Array with a size of 5
+    // each value will its index times 2
+    val myArray = Array(5) { it * 2 }
 }
