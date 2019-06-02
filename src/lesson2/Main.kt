@@ -1,3 +1,5 @@
+package lesson2
+
 fun main() {
     val startingFishes = 2.0
     printMessage("Starting: ${startingFishes.toInt()}")

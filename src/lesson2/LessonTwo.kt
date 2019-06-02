@@ -1,3 +1,5 @@
+package lesson2
+
 fun main() {
     val event = OPEN
     eventHandling(event).toConsole()

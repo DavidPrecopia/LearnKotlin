@@ -1,3 +1,5 @@
+package lesson2
+
 // Mutable (duh)
 // MutableList
 val myMutableList = mutableListOf("python", "kotlin", "java")

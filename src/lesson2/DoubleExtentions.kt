@@ -1,3 +1,5 @@
+package lesson2
+
 fun Double.multiply(divideBy: Double) = this.times(divideBy.div(this))
 
 fun Double.eatFish(numToEat: Int) = this.minus(numToEat)
