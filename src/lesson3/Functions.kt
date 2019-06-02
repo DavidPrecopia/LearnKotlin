@@ -6,6 +6,7 @@ import java.util.*
 // args: Array<String>
 fun main() {
     // Exclusive bound
+    // This is how you loop
     for (i in 1..5) {
         everythingIsAnExpression(Random().nextInt(25))
     }
@@ -17,7 +18,17 @@ fun main() {
     // Because `readLine()` could return null, birthday might be null.
     // If birthday is not null, return birthday, otherwise return 0.
     println(getFortuneCookie(birthday ?: 0))
+
+
+    // foo does not explicitly declare a return type, thus it returns Unit.
+    // This prints: kotlin.Unit
+    println(foo())
 }
+
+fun foo() {
+    println("testing")
+}
+
 
 // Do not need to check for null because String is not null
 fun getBirthday(it: String) = it.toInt()
