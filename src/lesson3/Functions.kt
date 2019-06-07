@@ -31,6 +31,7 @@ fun foo() {
 
 
 // Do not need to check for null because String is not null
+// Parameters val by default
 fun getBirthday(it: String) = it.toInt()
 
 private fun everythingIsAnExpression(timeOfDay: Int) {
