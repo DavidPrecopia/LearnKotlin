@@ -11,4 +11,11 @@ fun main() {
     myList.sum()
     // You can specify how to sum the elements of a List
     listOf("one", "two", "three", "four").sumBy { it.length }
+
+
+    // Get the last index of a Collection or Array
+    println(myList.lastIndex)
+
+    // Get the last element of a Collection or Array
+    println(myList.last())
 }
