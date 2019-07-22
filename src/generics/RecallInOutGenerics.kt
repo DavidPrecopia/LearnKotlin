@@ -1,4 +1,4 @@
-package lesson5
+package generics
 
 /**
  * THESE RULES PRESERVE THE "IS-A" RELATIONSHIP

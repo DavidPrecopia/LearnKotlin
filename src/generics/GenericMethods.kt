@@ -1,4 +1,4 @@
-package lesson5
+package generics
 
 fun main() {
     // Invalid

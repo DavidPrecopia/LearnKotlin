@@ -1,4 +1,4 @@
-package lesson5
+package generics
 
 fun main() {
     println(listOf(1, 2, 3, 4).manuallyReverse())

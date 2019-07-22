@@ -1,4 +1,4 @@
-package lesson5
+package generics
 
 /**
  * Star represents some fixed type that you do not know.

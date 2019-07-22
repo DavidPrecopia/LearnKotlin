@@ -1,4 +1,4 @@
-package lesson5
+package generics
 
 open class BaseBuildingMaterial(val numberNeeded: Int = 1)
 
